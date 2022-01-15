@@ -110,5 +110,28 @@ collection style
         width: 300px;
     }
 
+ }
+ @media only screen and (min-width: 992px) {
+    .Flex-display{
+        width: 750px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .h1-align{
+        width: 300px;
+    }
+    .collection{
+        width: 650px;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .buttom-2{
+        width:600px;
+    }
+    .extra-work{
+        width:750px;
+    }
+    .footer{
+        width: 36px;
+    }
+
 
  }
